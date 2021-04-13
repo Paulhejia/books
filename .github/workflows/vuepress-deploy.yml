@@ -8,7 +8,7 @@ jobs:
       uses: actions/checkout@master
 
     - name: Build and Deploy
-      uses: Paulhejia/books@master
+      uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: Paulhejia/books
