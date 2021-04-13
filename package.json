@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "deploy-gh": "GH=1 yarn build && bash deploy-gh.sh" 
   },
   "keywords": [],
   "author": "Feng L.H.",

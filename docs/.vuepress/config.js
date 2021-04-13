@@ -2,7 +2,7 @@ module.exports = {
   theme:"",
   title: "VuePress-Creator",
   description: "A lightweight creator for VuePress project.",
-  base: "/",
+  base: "/books/",
   head: [
     ["link",{ rel: "icon",href: "/assets/logo.png" }]
   ],
