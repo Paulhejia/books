@@ -6,13 +6,16 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "deploy-gh": "GH=1 yarn build && bash deploy-gh.sh" 
+    "deploy-gh": "GH=1 yarn build && bash deploy-gh.sh"
   },
   "keywords": [],
   "author": "Feng L.H.",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.5.2"
+    "vuepress": "^1.5.2",
+    "vuepress-plugin-autobar": "boboidream/vuepress-bar",
+    "vuepress-plugin-permalink-pinyin": "^1.0.0",
+    "vuepress-plugin-rpurl": "github:boboidream/vuepress-plugin-rpurl"
   },
   "dependencies": {
     "core-js": "^2.6.11"
